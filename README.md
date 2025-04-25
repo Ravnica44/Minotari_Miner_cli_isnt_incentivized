@@ -7,7 +7,12 @@ su - tari
 ```
 
 ```shell
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+sudo apt update
+sudo apt install automake libtool protobuf-compiler libudev-dev -y
+```
+
+```shell
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
 ```
 
 ```shell
@@ -15,17 +20,14 @@ echo 'export PATH="$HOME/.cargo/bin:$PATH"' >> ~/.bashrc && source ~/.bashrc
 ```
 
 ```shell
-screen -S tari_node
+git clone https://github.com/tari-project/tari.git
+cd ~/tari && TARI_NETWORK=nextnet TARI_TARGET_NETWORK=nextnet cargo build --release
 ```
 
 ```shell
-git clone https://github.com/tari-project/tari.git
-cd ~/tari && git checkout v1.15.0-rc.0
+screen -S tari_node
 ```
 
-sudo apt update
-sudo apt install automake libtool protobuf-compiler libudev-dev -y
-cargo build --release
 
 ./target/release/minotari_node
 
