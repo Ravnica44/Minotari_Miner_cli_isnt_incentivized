@@ -28,20 +28,21 @@ cd ~/tari && TARI_NETWORK=nextnet TARI_TARGET_NETWORK=nextnet cargo build --rele
 screen -S tari_node
 ```
 
-
+```shell
 ./target/release/minotari_node
+```
 
-Initializing logging according to "/home/layeredge/.tari/esmeralda/config/base_node/log4rs.yml"
+`Initializing logging according to "/home/layeredge/.tari/esmeralda/config/base_node/log4rs.yml"
 Node config does not exist.
 Would you like to mine (Y/n)?
-NOTE: this will enable additional gRPC methods that could be used to monitor and submit blocks from this node.
+NOTE: this will enable additional gRPC methods that could be used to monitor and submit blocks from this node.`
 
-ENTER
+`ENTER`
 
-Node identity does not exist.
-Would you like to create one (Y/n)?
+`Node identity does not exist.
+Would you like to create one (Y/n)?`
 
-ENTER
+`ENTER`
 
 
 
