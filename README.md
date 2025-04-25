@@ -52,7 +52,7 @@ cd ~/tari
 ./target/release/minotari_console_wallet
 ```
 
-navigate with ➜ en go to "Receive" then copy your `Tari Address one-sided`
+navigate with ➜ then go to "Receive" then copy your `Tari Address one-sided`
 
 `Ctrl` + `A` + `D`
 
