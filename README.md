@@ -36,9 +36,6 @@ screen -S tari_node
 
 ```shell
 cd ~/tari
-```
-
-```shell
 ./target/release/minotari_node
 ```
 
@@ -65,9 +62,6 @@ screen -S tari_miner
 
 ```shell
 cd ~/tari
-```
-
-```shell
 ./target/release/minotari_miner
 ```
 
