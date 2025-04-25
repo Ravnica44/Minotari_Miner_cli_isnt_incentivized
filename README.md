@@ -44,16 +44,25 @@ Would you like to create one (Y/n)?`
 
 `ENTER`
 
+WAIT FULL SYNC https://explore-nextnet.tari.com/
 
+Ctrl + A + D
 
+```shell
+screen -S tari_wallet
+```
+
+```shell
+cd tari
 ./target/release/minotari_console_wallet
+```
 
-Console Wallet
+`Console Wallet
 
 1. Create a new wallet.
 2. Recover wallet from seed words or hardware device.
 3. Create a read-only wallet using a view key.
->> 1
+>> 1 # Tape `1`
 Create wallet passphrase:
 Confirm wallet passphrase:
 
@@ -91,7 +100,7 @@ Please enter 'base-node-grpc-address' ('quit' or 'exit' to quit) : http://127.0.
 22:45 INFO  ⛏ Miner 15 reported 0.10MH/s with total 1.59MH/s over 16 threads. Height: 519. Target: 6244203114)
 22:45 INFO  ⛏ Miner 01 reported 0.08MH/s with total 1.32MH/s over 16 threads. Height: 519. Target: 6244203114)
 
-
+navigate with ➜ en go to "Receive" then copy your `Tari Address one-sided`
 
 ./target/release/minotari_miner
 
