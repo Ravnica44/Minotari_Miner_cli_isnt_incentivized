@@ -71,12 +71,4 @@ cd ~/tari
 ./target/release/minotari_miner
 ```
 
-Past your address `Tari Address one-sided` is 'wallet-payment-address'
-
-Update
-
-cd ~/tari
-git fetch
-git checkout main
-git pull
-cargo build --release
+Past your address `Tari Address one-sided` is `'wallet-payment-address'`
