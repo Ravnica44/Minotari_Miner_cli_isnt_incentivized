@@ -21,7 +21,11 @@ echo 'export PATH="$HOME/.cargo/bin:$PATH"' >> ~/.bashrc && source ~/.bashrc
 
 ```shell
 git clone https://github.com/tari-project/tari.git
-cd ~/tari && TARI_NETWORK=nextnet TARI_TARGET_NETWORK=nextnet cargo build --release
+cd ~/tari && git checkout v1.15.0-rc.0
+```
+
+```shell
+TARI_NETWORK=nextnet TARI_TARGET_NETWORK=nextnet cargo build --release
 ```
 
 ```shell
@@ -29,7 +33,7 @@ screen -S tari_node
 ```
 
 ```shell
-cd tari
+cd ~/tari
 ```
 
 ```shell
@@ -45,7 +49,7 @@ screen -S tari_wallet
 ```
 
 ```shell
-cd tari
+cd ~/tari
 ./target/release/minotari_console_wallet
 ```
 
@@ -58,12 +62,13 @@ screen -S tari_miner
 ```
 
 ```shell
-cd tari
+cd ~/tari
 ```
 
 ```shell
 ./target/release/minotari_miner
 ```
+Past your address `Tari Address one-sided` is 'wallet-payment-address'
 
 Update
 
