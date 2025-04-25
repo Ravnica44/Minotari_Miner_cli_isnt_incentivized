@@ -19,6 +19,8 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
 echo 'export PATH="$HOME/.cargo/bin:$PATH"' >> ~/.bashrc && source ~/.bashrc
 ```
 
+https://github.com/tari-project/tari/blob/development/docs/src/branching_releases.md
+
 ```shell
 git clone https://github.com/tari-project/tari.git
 cd ~/tari && git checkout v1.15.0-rc.0
@@ -68,6 +70,7 @@ cd ~/tari
 ```shell
 ./target/release/minotari_miner
 ```
+
 Past your address `Tari Address one-sided` is 'wallet-payment-address'
 
 Update
