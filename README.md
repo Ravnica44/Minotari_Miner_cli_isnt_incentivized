@@ -8,7 +8,7 @@ su - tari
 
 ```shell
 sudo apt update
-sudo apt install automake libtool protobuf-compiler libudev-dev -y
+sudo apt install screen automake libtool protobuf-compiler libudev-dev -y
 ```
 
 ```shell
